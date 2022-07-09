@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Squares and Cubes</title>
+
+</head>
+
+<body>
+    <table border="1" align="center" style="background-color: skyblue;">
+
+        <style>
+            #blink {
+                text-align: center;
+                color: blue;
+                animation: blinker 1s linear infinite;
+
+            }
+
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style>
+        <tr>
+            <th colspan="3">Numbers from 0 to 10with thier squares and Cubes</th>
+        </tr>
+        <tr align="center">
+            <td>Number</td>
+            <td>Squares</td>
+            <td>Cubes</td>
+        </tr>
+        <script type="text/javascript">
+
+            for (var i = 1; i <= 10; i++) {
+                document.write("<tr align='center'><td>" + i + "</td><td>" + i * i + "</td><td>" + i * i * i + "</td></tr>")
+
+            }
+
+        </script>
+
+
+
+    </table>
+    <h1 id="blink">Assignment-2 Challenge Complted</h1>
+</body>
+
+</html>
